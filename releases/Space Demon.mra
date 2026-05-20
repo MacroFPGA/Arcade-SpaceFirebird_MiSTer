@@ -1,5 +1,5 @@
 <misterromdescription>
-	<name>Space Firebird</name>
+	<name>Space Demon</name>
 	<region></region>
 	<homebrew>no</homebrew>
 	<bootleg>no</bootleg>
@@ -11,7 +11,7 @@
 	<manufacturer>Nintendo</manufacturer>
 	<category>Shoot'em up</category>
 
-	<setname>SpaceFirebird</setname>
+	<setname>SpaceDemon</setname>
 	<parent>SpaceFirebird</parent>
 	<mameversion>0219</mameversion>
 	<rbf>SpaceFirebird</rbf>
@@ -28,29 +28,30 @@
 	<button_names></button_names>
 
 	<switches default="20">
-		<dip bits="0,1" ids="3,4,5,6" name="Lives"></dip>
-		<dip bits="2,3" ids="1c/1cr,2c/1cr,3c/1cr,1c/2cr" name="Coinage"></dip>
+		<dip bits="0" ids="3,4" name="Lives"></dip>
+		<dip bits="0" ids="Easy,Hard" name="Difficulty"></dip>
+		<dip bits="2,3" ids="1c/1cr,2c/1cr,1c/3cr,1c/2cr" name="Coinage"></dip>
 		<dip bits="4" ids="5000,8000" name="Bonus life"></dip>
 		<dip bits="5" ids="Cocktail,Upright" name="Cabinet"></dip>
 		<dip bits="8" ids="Off,On" name="Autocoin"></dip>
 		</switches>
 
-	<rom index="0" md5="none" zip="spacefb.zip">
-		<part crc="79c3527e" name="tst-c-u.5e"></part>
-		<part crc="c0973965" name="tst-c-u.5f"></part>
-		<part crc="02c60ec5" name="tst-c-u.5h"></part>
-		<part crc="76fd18c7" name="tst-c-u.5i"></part>
-		<part crc="df52c97c" name="tst-c-u.5j"></part>
-		<part crc="1713300c" name="tst-c-u.5k"></part>
-		<part crc="6286f534" name="tst-c-u.5m"></part>
-		<part crc="1c9f91ee" name="tst-c-u.5n"></part>
+	<rom index="0" md5="none" zip="spacedem.zip|spacefb.zip">
+		<part crc="be4b9cbb" name="sdm-c-5e"></part>
+		<part crc="0814f964" name="sdm-c-5f"></part>
+		<part crc="ebfff682" name="sdm-c-5h"></part>
+		<part crc="dd7e1378" name="sdm-c-5i"></part>
+		<part crc="98334fda" name="sdm-c-5j"></part>
+		<part crc="ba4933b2" name="sdm-c-5k"></part>
+		<part crc="14d3c656" name="sdm-c-5m"></part>
+		<part crc="7e0e41b0" name="sdm-c-5n"></part>
 
-		<part crc="236e1ff7" name="tst-v-a.5k"></part>
-		<part crc="bf901a4e" name="tst-v-a.6k"></part>
+		<part crc="55758e4d" name="sdm-v-5k"></part>
+		<part crc="3fcbb20c" name="sdm-v-6k"></part>
 		<part crc="528e8533" name="4i.vid"></part>
-		<part crc="465d07af" name="mb7051.3n" repeat="8"></part>
+		<part crc="6d8ad169" name="sdm-v-3n" repeat="8"></part>
 		<part repeat="1536">00</part>
-		<part crc="1c8670b3" name="ic20.snd"></part>
+		<part crc="55f40a0b" name="sdm-e-20"></part>
 	</rom>
 
     <rom index="5">

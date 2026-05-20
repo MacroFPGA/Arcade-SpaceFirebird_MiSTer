@@ -319,10 +319,10 @@ wire m_start1;
 wire m_start2;
 wire m_coin1;
 
-freeplay #(
+autocoin #(
 	.count(64000),
 	.delay(2))
-freeplay (
+autocoin (
   .i_clk(clk_cpu),
   .i_coin(B1_C),
   .i_start1(B1_S),
